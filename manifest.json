@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Window Positioner",
+  "version": "1.0",
+  "description": "Open and position the window in a selected screen corner",
+  "permissions": ["storage", "windows", "system.display"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

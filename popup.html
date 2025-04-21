@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Window Positioner</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 10px;
+      width: 200px;
+    }
+    input {
+      width: 100%;
+      margin-top: 8px;
+    }
+    button {
+      margin-top: 10px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <label for="position">Select Position (1-6):</label>
+  <input id="position" type="number" min="1" max="6" placeholder="e.g. 3">
+  <button id="save">Save & Launch</button>
+  <script src="popup.js"></script>
+</body>
+</html>
